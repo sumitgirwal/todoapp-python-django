@@ -1,6 +1,6 @@
 # todoapp-python-django
 
-## This is the simple todo application in - *Python* -, - *Django* -, and - *Bootstrap* - with responsive UI. 
+## This is the simple todo application in  *Python* ,  *Django* , and  *Bootstrap*  with responsive UI. 
 #### It's a simple web app where you can add a bunch of task s, update or delete any tasks. All modifications are saved in the database.
 
 ### Home Page 
