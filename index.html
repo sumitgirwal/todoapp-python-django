@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>ToDo App | Home Page</title>
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">ToDo App </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+     <ul class="navbar-nav mr-right">
+      <li class="nav-item">
+
+        <a class="btn btn-outline-light btn-sm" href="#" role="button">Signup</a>
+        <a class="btn btn-outline-light btn-sm" href="#" role="button">Signin</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+  <body>
+    <div class="container">
+
+
+    <h1 style="padding-top: 2%;">Hey, User </h1>
+
+
+
+  <div class="card">
+      <h5 class="card-header">ToDo App
+        <button type="button" class="btn btn-warning btn-sm">
+  Task <span class="badge badge-light" id="total_task">-100</span>
+</button>
+
+
+      </h5>
+
+      <div class="card-body">
+
+<div class="row">
+
+
+    <div class="col-10">
+        <div class="form-group">
+        <input type="text" id="myInput" class="form-control" name="text"  placeholder="Enter New Task..." required="">
+      </div>
+    </div>
+    <div class="col-2">
+        <button onclick="newElement()"  type="button" class="btn btn-primary">Add New Task</button>
+    </div>
+
+  </div>
+
+  <table class="table table-hover ">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">All Task</th>
+      <th scope="col">Complate</th>
+    </tr>
+  </thead>
+  <tbody id="myUL">
+
+    <tr>
+      <th scope="row">1.</th>
+      <td>First Task</td>
+      <td>Close</td>
+    </tr>
+  </tbody>
+</table>
+     <div class="alert alert-info alert-dismissible fade show" role="alert">
+    <strong>Add Your Awesome Task!</strong> Click To Add New Task.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+
+
+      </div>
+    </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="style.js"></script>
+
+  </body>
+</html>
